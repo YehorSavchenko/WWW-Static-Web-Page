@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yehor Savchenko</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <script src="https://kit.fontawesome.com/2a5be4e40a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("header");
+        if (x.className === "computer-header") {
+            x.className += " mobile-header";
+        } else {
+            x.className = "computer-header";
+        }
+    }
+</script>
+<body>
+<div id="header" class="computer-header">
+
+    <a id="menu-button" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+    <div class="top">
+
+        <div id="logo">
+            <span class="image avatar"> <img src="assets/css/images/avatar.webp" alt=""/> </span>
+            <h1 id="title"> Yehor Savchenko </h1>
+            <p> Software Engineer I</p>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="#top" id="top-link">
+                        <i class="fas fa-home"></i>
+                        <span> Intro </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" id="about-link">
+                        <i class="fa fa-user"></i>
+                        <span class=""> About Me </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio" id="portfolio-link">
+                        <i class="fa fa-th"></i>
+                        <span> Portfolio </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#blog" id="contact-link">
+                        <i class="fa fa-blog"></i>
+                        <span> Blog </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <ul class="icons">
+            <li>
+                <a href="#">
+                    <i class="fad fa-twitter"></i>
+                    <span> Twitter </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fad fa-facebook-f"></i>
+                    <span> Facebook </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fad fa-github"></i>
+                    <span> GitHub </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span> Instagram </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Main -->
+<div id="main">
+
+    <!-- Intro -->
+    <section id="top" class="one">
+        <div class="container">
+
+            <header>
+                <h2 class="alt">Hi! I'm <strong>Yehor</strong>, a <strong>Software Engineer</strong> <br/></h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry<br/>
+                    . Lorem Ipsum has been the industry's standard dummy</p>
+            </header>
+
+            <footer>
+                <a href="#about" class="button-33" role="button"><strong>More information</strong></a>
+            </footer>
+
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="two">
+        <div class="container">
+
+            <header>
+                <h2>About Me</h2>
+            </header>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into elect</p>
+
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="three">
+        <div class="container">
+
+            <header>
+                <h2>Portfolio</h2>
+            </header>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into elect</p>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="blog" class="four">
+        <div class="container">
+
+            <header>
+                <h2>Blog</h2>
+            </header>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into elect</p>
+
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
